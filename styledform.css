@@ -1,0 +1,29 @@
+body {
+  background-color: #efe5d0;
+  background-image: url(images/background.gif);
+  background-position: top left;
+}
+form {
+  display: table;
+  padding: 10px;
+  border: thin solid #7e7e7e;
+  background-color: #e1ceb8;
+}
+form textarea {
+  width: 500px;
+  height: 200px;
+}
+div.tableRow {
+  display: table-row;
+}
+div.tableRow p {
+  display: table-cell;
+  padding: 3px;
+  vertical-align: top;
+}
+div.tableRow p:first-child {
+  text-align: right;
+}
+p.heading {
+  font-weight: bold;
+}
